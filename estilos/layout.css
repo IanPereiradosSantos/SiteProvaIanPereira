@@ -1,0 +1,53 @@
+body{
+    width: 80%;
+    /* para os conteúdos não ficarem colados nas laterais */
+    margin: 0 auto;
+    display: grid;
+    /* utilizado para alinhar elementos de um conteiner em duas dimensões, geralmente linhas e colunas */
+    grid-template-columns: 80% 20%;
+    /* Medida das duas colunas */
+    grid-template-rows: 230px 40px 30px 35px 90px 40px;
+    /* medida das linhas */
+    grid-template-areas: 
+        "cabecalho cabecalho"
+        "navegacao navegacao"
+        "principal lateral"
+        "secao lateral"
+        "artigo lateral"
+        "rodape rodape";
+}
+header {
+    grid-area: cabecalho;
+}
+figure { 
+    grid-area: cabecalho;
+}
+nav{
+    grid-area: navegacao;
+    background-color: aquamarine;
+    margin: 3px;
+}
+main{
+    grid-area: principal;
+    background-color: bisque;
+    margin: 1px;
+}
+aside{
+    grid-area: lateral;
+    background-color: blueviolet;
+}
+section{
+    grid-area: secao;
+    background-color: brown;
+    margin: 1px;
+}
+article{
+    grid-area: artigo;
+    background-color: yellow;
+    margin: 1px;
+}
+footer{
+    grid-area: rodape;
+    background-color: blue;
+    margin: 3px;
+}

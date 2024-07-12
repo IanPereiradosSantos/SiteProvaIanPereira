@@ -1,0 +1,22 @@
+h1{
+    margin: auto;
+    text-align: center;
+}
+form {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+input{
+    border-radius: 10px;
+    margin: 3px;
+}
+textarea{
+    border-radius: 30px;
+}
+select{
+    margin: 3px;
+    border-radius: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Prova</title>
+    <link rel="stylesheet" href="../estilos/formulario.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>CONTATE NOS:</h1>
+        <form>
+            <input required type="text" name="nome" class="nome">
+            <label for="nome">Nome*</label><br>
+            <input required type="email" name="email" class="email">
+            <label for="email">Email*</label><br>
+            <input type="tel" name="telefone" class="telefone">
+            <label for="telefone">Telefone</label><br>
+            <input type="text" name="endereco" class="endereco">
+            <label for="endereco">Endereço</label><br>
+            <input required type="date" name="nasc" class="nasc">
+            <label for="nasc">Data de Nascimento</label><br>
+            <select id="onde" name="onde">
+              <option value="chrome">Amigos</option>
+              <option value="firefox">Faculdade</option>
+              <option value="safari">Família</option>
+            </select>
+            <label for="onde">Onde nos conheceu?</label><br>
+            <textarea></textarea>
+            <label for="textarea"> Mensagem</label><br>
+            <input type="checkbox" name="novidades" class="novidades">
+            <label for="novidades"> Deseja receber novidades</label><br>
+            <input type="submit">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
